@@ -5,7 +5,7 @@ const dataSchema = mongoose.Schema({
   iso_code: String,
   continent: String,
   location: String,
-  location_id: String,
+  location_id: Number,
   date: String,
   total_cases: Number,
   new_cases: Number,
